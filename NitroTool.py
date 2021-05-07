@@ -15,9 +15,9 @@ from time import gmtime, sleep, strftime
 def Home():
     os.system("cls")
     colorama.init()
-    ctypes.windll.kernel32.SetConsoleTitleW(f"[Nitro Tool] By Kele | Loading...")
+    ctypes.windll.kernel32.SetConsoleTitleW(f"[Nitro Tool] By Andy | Loading...")
     time.sleep(3)
-    ctypes.windll.kernel32.SetConsoleTitleW(f"[Nitro Tool] By Kele | Main Menu")
+    ctypes.windll.kernel32.SetConsoleTitleW(f"[Nitro Tool] By Andy | Main Menu")
     print(f'''
 {Fore.LIGHTCYAN_EX} ███▄    █  ██▓▄▄▄█████▓ ██▀███   ▒█████     ▄▄▄█████▓ ▒█████   ▒█████   ██▓    
 {Fore.LIGHTCYAN_EX} ██ ▀█   █ ▓██▒▓  ██▒ ▓▒▓██ ▒ ██▒▒██▒  ██▒   ▓  ██▒ ▓▒▒██▒  ██▒▒██▒  ██▒▓██▒    
@@ -30,7 +30,7 @@ def Home():
 {Fore.LIGHTCYAN_EX}         ░  ░              ░         ░ ░                  ░ ░      ░ ░      ░  ░
 
 {Fore.LIGHTCYAN_EX}              ╔══════════════════════════════════════════════════════════╗
-{Fore.LIGHTCYAN_EX}              ║                  Nitro Tool by Kele#2236                 ║
+{Fore.LIGHTCYAN_EX}              ║                  Nitro Tool by andy#7521                 ║
 {Fore.LIGHTCYAN_EX}              ║══════════════════════════════════════════════════════════║
 {Fore.LIGHTCYAN_EX}              ║ {Fore.YELLOW}[1] {Fore.LIGHTCYAN_EX}NITRO CODE GENERATOR                                 ║
 {Fore.LIGHTCYAN_EX}              ║ {Fore.YELLOW}[2] {Fore.LIGHTCYAN_EX}NITRO CODE CHECKER                                   ║
@@ -128,5 +128,5 @@ def Checker():
     input("\n\nFinished Checking Codes. Press Enter To Return To The Main Menu.")
     Home()
 
-webbrowser.open_new_tab("https://discord.gg/pV4MDjWBeK")
+webbrowser.open_new_tab("https://discord.gg/demon")
 Home()
